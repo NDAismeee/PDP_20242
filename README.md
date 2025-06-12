@@ -108,8 +108,8 @@ You can compare runtimes to analyze speedup and scaling.
 
 ## 8. Sample Plots
 *Serial Output:*
-![Serial Plot](./assets/serial_result.png)
+![Serial Plot](./assets/serial.png)
 
 *Parallel Output:*
-![Parallel Plot](./assets/parallel_result.png)
+![Parallel Plot](./assets/parallel.png)
 
