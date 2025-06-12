@@ -72,9 +72,9 @@ cd ..
 ```
 Output: `output_serial/wave_output.dat`
 
-### Parallel
+### Parallel (run with 9 parallel processes)
 ```bash
-mpirun -np 4 ./output_parallel/wave_parallel
+mpirun -np 9 ./output_parallel/wave_parallel
 ```
 Output: `output_parallel/wave_rank0.dat`, `wave_rank1.dat`, ...
 
