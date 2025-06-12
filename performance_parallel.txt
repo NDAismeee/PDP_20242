@@ -1,0 +1,9 @@
+Processes: 2, Time: 0.0589386 seconds
+Processes: 3, Time: 0.0439379 seconds
+Processes: 4, Time: 0.0490267 seconds
+Processes: 5, Time: 0.0413323 seconds
+Processes: 6, Time: 0.0342554 seconds
+Processes: 7, Time: 0.030996 seconds
+Processes: 8, Time: 0.0487755 seconds
+Processes: 9, Time: 0.0268861 seconds
+Processes: 10, Time: 0.026257 seconds
