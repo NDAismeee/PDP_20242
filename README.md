@@ -2,7 +2,7 @@
 
 This project numerically solves the 2D wave equation using finite difference methods. It includes both a serial (single-threaded) and a parallel implementation using MPI for distributed computing.
 
-## 📌 Project Structure
+## 1. Project Structure
 
 ```
 PDP_20242/
@@ -18,14 +18,14 @@ PDP_20242/
 └── README.md
 ```
 
-## 🎯 Goals
+## 2. Goals
 - Solve the 2D wave equation over a unit square domain.
 - Compare performance between serial and parallel implementations.
 - Visualize the wave surface using `matplotlib`.
 
 ---
 
-## ⚙️ Requirements
+## 3. Requirements
 
 ### C++ and MPI
 - `g++` or `mpic++` compiler
@@ -44,7 +44,7 @@ pip install matplotlib numpy
 
 ---
 
-## 🔧 Build Instructions
+## 4. Build Instructions
 
 ### Serial Version
 ```bash
@@ -64,7 +64,7 @@ cd ..
 
 ---
 
-## 🚀 Run Instructions
+## 5. Run Instructions
 
 ### Serial
 ```bash
@@ -82,7 +82,7 @@ You can adjust the number of processes (`-np`) as needed.
 
 ---
 
-## 📊 Visualization
+## 6. Visualization
 
 ### Plot Serial Result
 ```bash
@@ -98,7 +98,7 @@ Expected Output: Combined wave surface from `wave_rank*.dat`
 
 ---
 
-## 📈 Performance Note
+## 7. Performance Note
 - Serial runtime is stored internally.
 - Parallel runtime is printed and saved to `performance_parallel.txt`
 
@@ -106,7 +106,7 @@ You can compare runtimes to analyze speedup and scaling.
 
 ---
 
-## 📎 Sample Plots
+## 8. Sample Plots
 *Serial Output:*
 ![Serial Plot](./assets/serial_result.png)
 
