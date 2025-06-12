@@ -49,17 +49,13 @@ pip install matplotlib numpy
 ### Serial Version
 ```bash
 cd src
-mkdir -p ../output_serial
-g++ 2DWaveEquation.cpp -o ../output_serial/wave_serial -O2
-cd ..
+g++ 2DWaveEquation.cpp -o output_serial
 ```
 
 ### Parallel Version (MPI)
 ```bash
 cd src
-mkdir -p ../output_parallel
-mpic++ Parallel.cpp -o ../output_parallel/wave_parallel -O2
-cd ..
+mpic++ Parallel.cpp -o output_parallel
 ```
 
 ---
@@ -68,15 +64,15 @@ cd ..
 
 ### Serial
 ```bash
-./output_serial/wave_serial
+./output_serial
 ```
-Output: `output_serial/wave_output.dat`
+Output: `wave_output.dat`
 
 ### Parallel (run with 9 parallel processes)
 ```bash
-mpirun -np 9 ./output_parallel/wave_parallel
+mpirun -np 9 ./output_parallel
 ```
-Output: `output_parallel/wave_rank0.dat`, `wave_rank1.dat`, ...
+Output: `wave_rank0.dat`, `wave_rank1.dat`, ...
 
 You can adjust the number of processes (`-np`) as needed.
 
